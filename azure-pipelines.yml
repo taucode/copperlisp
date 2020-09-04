@@ -24,6 +24,8 @@ steps:
       
       dir $(System.DefaultWorkingDirectory)
 
+      dir $(Build.BinariesDirectory)
+
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
