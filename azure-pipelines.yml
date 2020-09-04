@@ -43,6 +43,9 @@ steps:
       Write-Host "Contents of [Build.BinariesDirectory]"
       dir $(Build.BinariesDirectory)
 
+      Write-Host "Contents of [Build.ArtifactStagingDirectory]"
+      dir $(Build.ArtifactStagingDirectory)
+
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
