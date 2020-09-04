@@ -24,6 +24,8 @@ steps:
       
       dir $(System.DefaultWorkingDirectory)
 
+      dir '$(System.DefaultWorkingDirectory)\src'
+
       dir $(Build.BinariesDirectory)
 
 - task: PublishBuildArtifacts@1
