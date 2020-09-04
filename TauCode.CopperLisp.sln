@@ -7,9 +7,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CADA0D30-16D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{EB14CA1E-73CC-447E-96F6-514F505C1F5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TauCode.CopperLisp", "src\TauCode.CopperLisp\TauCode.CopperLisp.csproj", "{2B2BB31E-80D7-4035-B22F-ABD655C54706}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TauCode.CopperLisp", "src\TauCode.CopperLisp\TauCode.CopperLisp.csproj", "{2B2BB31E-80D7-4035-B22F-ABD655C54706}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TauCode.CopperLisp.Tests", "test\TauCode.CopperLisp.Tests\TauCode.CopperLisp.Tests.csproj", "{3E341EEE-0979-40C1-8CAF-DDBC65613CE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TauCode.CopperLisp.Tests", "test\TauCode.CopperLisp.Tests\TauCode.CopperLisp.Tests.csproj", "{3E341EEE-0979-40C1-8CAF-DDBC65613CE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget", "nuget", "{BB37EB24-EB36-446A-AFCF-6235D60C4CAC}"
+	ProjectSection(SolutionItems) = preProject
+		nuget\TauCode.CopperLisp.nuspec = nuget\TauCode.CopperLisp.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{66BE5565-AC0F-4CB9-9E47-C8D5E7E47F04}"
+	ProjectSection(SolutionItems) = preProject
+		build\azure-pipelines-dev.yml = build\azure-pipelines-dev.yml
+		build\azure-pipelines.yml = build\azure-pipelines.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

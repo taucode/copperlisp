@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>TauCode.CopperLisp</id>
+    <version>0.0.1-dev-2020-09-04-21-41</version>
+    <authors>TauCode</authors>
+    <owners>TauCode</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE.txt</license>
+    <projectUrl>https://github.com/taucode/taucode.copperlisp</projectUrl>
+    <description>TauCode CopperLisp</description>
+    <releaseNotes>
+      First release version.
+    </releaseNotes>
+    <tags>taucode lisp copperlisp</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\LICENSE.txt" target="" />
+    <file src="..\src\TauCode.CopperLisp\bin\Release\netstandard2.1\TauCode.CopperLisp.dll" target="lib\netstandard2.1" />
+    <file src="..\src\TauCode.CopperLisp\bin\Release\netstandard2.1\TauCode.CopperLisp.pdb" target="lib\netstandard2.1" />
+  </files>
+</package>
