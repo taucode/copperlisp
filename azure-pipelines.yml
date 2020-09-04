@@ -24,7 +24,7 @@ steps:
       
       dir $(System.DefaultWorkingDirectory)
 
-      dir '$(System.DefaultWorkingDirectory)\src\TauCode.CopperLisp\bin'
+      dir '$(System.DefaultWorkingDirectory)\src\TauCode.CopperLisp'
 
       dir $(Build.BinariesDirectory)
 
