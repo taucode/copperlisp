@@ -37,8 +37,8 @@ steps:
       Write-Host "Contents of [System.DefaultWorkingDirectory]"
       dir $(System.DefaultWorkingDirectory)
 
-      Write-Host "Contents of [(System.DefaultWorkingDirectory)\src\TauCode.CopperLisp\bin]"
-      dir '$(System.DefaultWorkingDirectory)\src\TauCode.CopperLisp\bin'
+      Write-Host "Contents of [(System.DefaultWorkingDirectory)\src\TauCode.CopperLisp\bin\Release]"
+      dir '$(System.DefaultWorkingDirectory)\src\TauCode.CopperLisp\bin\Release'
 
       Write-Host "Contents of [Build.BinariesDirectory]"
       dir $(Build.BinariesDirectory)
