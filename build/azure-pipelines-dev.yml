@@ -61,7 +61,8 @@ steps:
       Write-Host "packageName is:"
       Write-Host $(packageName)
 
-- task: NuGetCommand@2
+- task: PublishBuildArtifacts@1
   inputs:
-    command: 'custom'
-    arguments: 'push $(Build.ArtifactStagingDirectory)\$(packageName) -ApiKey az_dummy -Source "taucode"'
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
