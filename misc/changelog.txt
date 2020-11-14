@@ -1,3 +1,7 @@
 2020-09-05
 ==========
     1. Started working on library.
+
+2020-11-14
+==========
+    1. Huge dev refactoring.
