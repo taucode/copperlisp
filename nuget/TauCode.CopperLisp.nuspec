@@ -2,15 +2,16 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>TauCode.CopperLisp</id>
-    <version>1.3.2.7-dev-2021-03-01-18-26</version>
+    <version>1.3.7-alpha.1.2022-07-28.09-02</version>
     <authors>TauCode</authors>
     <owners>TauCode</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <license type="file">LICENSE.txt</license>
+    <license type="file">LICENSE</license>
     <projectUrl>https://github.com/taucode/taucode.copperlisp</projectUrl>
+    <repository type="git" url="https://github.com/taucode/taucode.copperlisp"/>
     <description>TauCode CopperLisp</description>
     <releaseNotes>
-      Resurrection.
+      Developing release 1.3.7.
     </releaseNotes>
     <tags>taucode lisp copperlisp common-lisp</tags>
     <dependencies>
@@ -19,7 +20,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="..\LICENSE.txt" target="" />
+    <file src="..\LICENSE*" target="" />
     <file src="..\src\TauCode.CopperLisp\bin\Release\netstandard2.1\TauCode.CopperLisp.dll" target="lib\netstandard2.1" />
     <file src="..\src\TauCode.CopperLisp\bin\Release\netstandard2.1\TauCode.CopperLisp.pdb" target="lib\netstandard2.1" />
   </files>
