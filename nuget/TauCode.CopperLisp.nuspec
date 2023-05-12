@@ -2,16 +2,16 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>TauCode.CopperLisp</id>
-    <version>1.7.1-alpha.1.2023-02-06.10-47</version>
+    <version>1.8.1-alpha.1.2023-05-12.12-00</version>
     <authors>TauCode</authors>
     <owners>TauCode</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="file">LICENSE</license>
-    <projectUrl>https://github.com/taucode/taucode.copperlisp</projectUrl>
-    <repository type="git" url="https://github.com/taucode/taucode.copperlisp"/>
+    <projectUrl>https://github.com/taucode/copperlisp</projectUrl>
+    <repository type="git" url="https://github.com/taucode/copperlisp"/>
     <description>TauCode CopperLisp</description>
     <releaseNotes>
-      Developing release 1.7.1.
+      Developing release 1.8.1.
     </releaseNotes>
     <tags>taucode lisp copperlisp common-lisp</tags>
     <dependencies>
